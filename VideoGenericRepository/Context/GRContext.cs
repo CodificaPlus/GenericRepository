@@ -5,7 +5,7 @@ namespace VideoGenericRepository.Context
 {
     public class GRContext : DbContext
     {
-        public DbSet<Produto> Produtos => Set<Produto>();
+        public DbSet<Produto> Produto => Set<Produto>();
         public GRContext(DbContextOptions<GRContext> options) : base(options)
         {
         }
